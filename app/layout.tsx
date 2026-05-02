@@ -1,0 +1,16 @@
+export const metadata = {
+  title: 'Style Bundle',
+  description: 'Gifting Insights Engine',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
+}
